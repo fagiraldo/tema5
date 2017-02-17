@@ -27,14 +27,14 @@
         %>   
           <br>
         <table >
-            <td>
-               <tr>Nombre</tr>
-               <tr>Apellido</tr> 
-            </td>
-            <td>
-               <tr><%=profesor.getNombre()%></tr>
-               <tr><%=profesor.getApellido()%></tr> 
-        </td>
+            <tr>
+               <td>Nombre</td>
+               <td>Apellido</td> 
+            </tr>
+            <tr>
+               <td><%=profesor.getNombre()%></td>
+               <td><%=profesor.getApellido()%></td> 
+        </tr>
         </table>
         
         <%
